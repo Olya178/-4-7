@@ -15,7 +15,7 @@ def mix_colors(color1, color2):
     elif color1 == color2:
         return f"Получился {color1} цвет."
     else:
-        return f"При смешивании получается {secondary_colors[(color1, color2)]}."
+        return f"При смешивании получается {secondary_colors[(color1, color2)]}"
 
 
 color1 = input("Введите первый цвет: ").lower()
