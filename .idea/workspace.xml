@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69e852ef-55a6-436e-bbd2-33e33f850c08" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/лаба 4.2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/лаба 4.3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/лаба 4.4.py" afterDir="false" />
+    <list default="true" id="69e852ef-55a6-436e-bbd2-33e33f850c08" name="Changes" comment="лаба 4-7">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/5.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Olya178&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Olya178/-4-7.git&quot;,
+    &quot;accountId&quot;: &quot;c02bd831-c41d-4223-9435-25bc62acc885&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -43,12 +47,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.5.1.executor": "Run",
+    "Python.5.2.executor": "Run",
+    "Python.5.3.executor": "Run",
+    "Python.5.4.executor": "Run",
+    "Python.6.1.executor": "Run",
+    "Python.6.2.executor": "Run",
+    "Python.6.3.executor": "Run",
+    "Python.6.4.executor": "Run",
     "Python.main.executor": "Run",
     "Python.лаба 4.2.executor": "Run",
     "Python.лаба 4.3.executor": "Run",
     "Python.лаба 4.4.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/sumak/print('n').py",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   },
   "keyToStringList": {
@@ -57,7 +70,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.лаба 4.4">
+  <component name="RunManager">
     <configuration name="лаба 4.2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -170,6 +183,126 @@
       <option name="presentableId" value="Default" />
       <updated>1742359576380</updated>
     </task>
+    <task id="LOCAL-00001" summary="лаба 4-7">
+      <option name="closed" value="true" />
+      <created>1742970340818</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742970340818</updated>
+    </task>
+    <task id="LOCAL-00002" summary="лаба 4-7">
+      <option name="closed" value="true" />
+      <created>1742970911572</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742970911572</updated>
+    </task>
+    <task id="LOCAL-00003" summary="лаба 4-7">
+      <option name="closed" value="true" />
+      <created>1742971158293</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742971158293</updated>
+    </task>
+    <task id="LOCAL-00004" summary="лаба 4-7">
+      <option name="closed" value="true" />
+      <created>1742972857578</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742972857578</updated>
+    </task>
+    <task id="LOCAL-00005" summary="лаба 4-7">
+      <option name="closed" value="true" />
+      <created>1742974707854</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742974707854</updated>
+    </task>
+    <task id="LOCAL-00006" summary="лаба 4-7">
+      <option name="closed" value="true" />
+      <created>1742976885659</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742976885659</updated>
+    </task>
+    <task id="LOCAL-00007" summary="лаба 4-7">
+      <option name="closed" value="true" />
+      <created>1742978911418</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742978911418</updated>
+    </task>
+    <task id="LOCAL-00008" summary="лаба 4-7">
+      <option name="closed" value="true" />
+      <created>1742979102584</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1742979102584</updated>
+    </task>
+    <task id="LOCAL-00009" summary="лаба 4-7">
+      <option name="closed" value="true" />
+      <created>1742979320353</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1742979320353</updated>
+    </task>
+    <task id="LOCAL-00010" summary="лаба 4-7">
+      <option name="closed" value="true" />
+      <created>1742980168618</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1742980168618</updated>
+    </task>
+    <task id="LOCAL-00011" summary="лаба 4-7">
+      <option name="closed" value="true" />
+      <created>1742980186298</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1742980186298</updated>
+    </task>
+    <task id="LOCAL-00012" summary="лаба 4-7">
+      <option name="closed" value="true" />
+      <created>1742980840292</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1742980840292</updated>
+    </task>
+    <task id="LOCAL-00013" summary="лаба 4-7">
+      <option name="closed" value="true" />
+      <created>1742981649584</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1742981649584</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="лаба 4-7" />
+    <option name="LAST_COMMIT_MESSAGE" value="лаба 4-7" />
   </component>
 </project>
