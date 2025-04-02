@@ -6,6 +6,7 @@ def de(number):
         return "Не делится"
 print(de(int(input("Введите число:"))))
 
+
 print (str("Задание 2"))
 def user(num):
     try:
@@ -19,11 +20,13 @@ def user(num):
         return f"Ошибка: {e}"  #  другие исключения
 print (user(int(input("Введите число для деления 100: "))))
 
+
 print (str("Задание 3"))
 def mag(dat):
     dat=dat.split(".")
     return int(dat[0]) * int(dat[1]) == int(dat[2][-2:])
 print(mag(input("Введите дату :")))
+
 
 print (str("Задание 4"))
 def num(d):
@@ -31,4 +34,4 @@ def num(d):
     print(d[:len(d)//2])
     print(d[len(d) // 2:])
     return sum(d[:len(d)//2]) == sum(d[len(d)//2:])
-print(num(input("Введите дату :")))
+print(num(input("Введите число, с четным количеством цифр :")))
