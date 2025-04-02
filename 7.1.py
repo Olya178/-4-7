@@ -1,7 +1,7 @@
 import random
 def check_number():
 
-    numbers_list = [random.randint(1, 100) for _ in range(5)]
+    numbers_list = [random.randint(1, 10) for _ in range(5)]
 
     user_number = int(input("Введите число: "))
 

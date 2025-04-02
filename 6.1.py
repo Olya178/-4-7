@@ -16,8 +16,6 @@ def user(num):
         return "Ошибка: Введите корректное число!"  # ошибка ввод строки вместо числа
     except ZeroDivisionError:
         return "Ошибка: Деление на ноль невозможно!" # деление на 0
-    except Exception as e:
-        return f"Ошибка: {e}"  #  другие исключения
 print (user(int(input("Введите число для деления на 100: "))))
 
 
