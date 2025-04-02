@@ -18,7 +18,7 @@ def user(num):
         return "Ошибка: Деление на ноль невозможно!" # деление на 0
     except Exception as e:
         return f"Ошибка: {e}"  #  другие исключения
-print (user(int(input("Введите число для деления 100: "))))
+print (user(int(input("Введите число для деления на 100: "))))
 
 
 print (str("Задание 3"))
