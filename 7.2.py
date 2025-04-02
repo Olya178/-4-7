@@ -1,4 +1,4 @@
-mylist = [1, 2, 3, 4, 5, 6]
+mylist = [1, 2, 3, 4, 4,  5, 6]
 uniq = set()
 dupl = set()
 
@@ -9,6 +9,6 @@ for element in mylist:
         uniq.add(element)
 
 if dupl:
-    print("Повторяющиеся элементы:", ', '.join(map(str, dupl)))
+    print("Повторяющиеся элементы:", *dupl)
 else:
     print("Дубликатов нет")
