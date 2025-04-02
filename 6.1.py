@@ -1,3 +1,4 @@
+print (str("Задание 1"))
 def de(number):
     if number % 3 == 0:
         return "Делится"
@@ -5,7 +6,7 @@ def de(number):
         return "Не делится"
 print(de(int(input("Введите число:"))))
 
-
+print (str("Задание 2"))
 def user(num):
     try:
         result = 100 / num
@@ -18,13 +19,13 @@ def user(num):
         return f"Ошибка: {e}"  #  другие исключения
 print (user(int(input("Введите число для деления 100: "))))
 
-
+print (str("Задание 3"))
 def mag(dat):
     dat=dat.split(".")
     return int(dat[0]) * int(dat[1]) == int(dat[2][-2:])
 print(mag(input("Введите дату :")))
 
-
+print (str("Задание 4"))
 def num(d):
     d = [int(i) for i in d]
     print(d[:len(d)//2])
