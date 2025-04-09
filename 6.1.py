@@ -10,7 +10,7 @@ print(de(int(input("Введите число:"))))
 print (str("Задание 2"))
 def user(num):
     try:
-        result = 100 / num
+        result = 100 / float(num)
         return f"Результат: {result}"
     except ValueError:
         return "Ошибка: Введите корректное число!"  # ошибка ввод строки вместо числа
