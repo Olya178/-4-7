@@ -19,7 +19,8 @@ def calcul(word):
             numer += alfavit[bukva]
         else:
             print("Буква не найдена")
+            break
     return numer
 
 numer = calcul(word)
-print(f"Слово '{word}' стоит {numer} очков")
+print(f"Слово {word} стоит {numer} очков")
