@@ -1,5 +1,5 @@
 from PIL import Image
-filepath = 'D:\\лабы питон\\pythonProject\\капибар.jpg'
+filepath = '"D:\\лабы питон\\pythonProject\\лаба 9\\капибар.jpg"'
 img = Image.open(filepath)
 img.show()
 
