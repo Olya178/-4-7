@@ -1,33 +1,31 @@
 from PIL import Image, ImageDraw, ImageFont
 import os
 
-# Папка с изображениями
-folder = "images"  # замени на нужную папку
+folder = "D:\\лабы питон\\pythonProject\\лаба 9"
+watermark_text = "АИП"
 
-# Текст водяного знака
-watermark = "© MyWatermark"
+font = ImageFont.load_default()
 
-# Проходим по всем JPG-файлам в папке
-for filename in os.listdir(folder):
-    if filename.endswith(".jpg"):
-        path = os.path.join(folder, filename)
-        image = Image.open(path)
-        draw = ImageDraw.Draw(image)
+for file in os.listdir(folder):
+    if file.endswith(".jpg"):
+        path = os.path.join(folder, file)
 
-        # Используем встроенный шрифт
-        font = ImageFont.load_default()
+        image = Image.open(path).convert("RGBA")
 
-        # Позиция водяного знака (правый нижний угол)
-        text_width, text_height = draw.textsize(watermark, font)
-        x = image.width - text_width - 10
-        y = image.height - text_height - 10
+        txt_layer = Image.new("RGBA", image.size, (255, 255, 255, 0))
+        draw = ImageDraw.Draw(txt_layer)
 
-        # Добавляем текст
-        draw.text((x, y), watermark, font=font, fill=(255, 255, 255))
+        text_w, text_h = draw.textsize(watermark_text, font)
+        x = (image.width - text_w) // 2
+        y = (image.height - text_h) // 2
 
-        # Сохраняем в той же папке с новым именем
-        new_name = "wm_" + filename
-        new_path = os.path.join(folder, new_name)
-        image.save(new_path)
+        draw.text((x, y), watermark_text, font=font, fill=(255, 255, 255, 255))
 
-print("Водяные знаки добавлены.")
+
+        watermarked = Image.alpha_composite(image, txt_layer)        # объединяем изображение и текстовый слой
+
+        # Сохраняем как PNG
+        new_file = os.path.join(folder, "wm_" + os.path.splitext(file)[0] + ".png")
+        watermarked.save(new_file)
+
+print("Готово! Водяные знаки добавлены в центр (без прозрачности).")
