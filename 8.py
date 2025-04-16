@@ -17,6 +17,7 @@ if spec_strana in strana_stol:
 else:
     print(f"Страна {spec_strana} не найдена в перечне" )
 
+
 sorted_strana=sorted(strana_stol.keys())
 print("\nСписок стран и столиц в алфавитном порядке:")
 for strana in sorted_strana:
