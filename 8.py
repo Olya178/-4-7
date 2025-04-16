@@ -12,6 +12,7 @@ for strana, stol in strana_stol.items():
 
 spec_strana =input(("\nВведите страну:"))
 spec_strana=spec_strana.capitalize()
+
 if spec_strana in strana_stol:
     print(f"Страна {spec_strana}, столица {strana_stol[spec_strana]}")
 else:
