@@ -4,13 +4,11 @@ import os
 
 filepath = 'D:\\лабы питон\\pythonProject\\лаба 9'
 
-
-def is_image_file(filename):
+def image_file(filename):
     return filename.lower().endswith(('.png', '.jpg'))
 
-
 for file in os.listdir(filepath):
-    if is_image_file(file):
+    if image_file(file):
         fil = os.path.join(filepath, file)
         try:
             img = Image.open(fil)
