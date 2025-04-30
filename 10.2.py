@@ -12,7 +12,7 @@ holiday = input("К какому празднику Bам нужна откры�
 
 if holiday in cards:
     filename = cards[holiday]
-    if os.path.exists(filename):  # Проверяем, существует ли файл
+    if os.path.exists(filename):  # проверяем существует ли файл
         print(f"Открытка для праздника '{holiday}': {filename}")
         image = Image.open(filename)
         image.show()

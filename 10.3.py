@@ -1,6 +1,4 @@
 from PIL import Image, ImageDraw, ImageFont
-
-
 cards = {
     "Новый год": "D:\\лабы питон\\pythonProject\\лаба 9\\new_year.jpg",
     "День рождения": "D:\\лабы питон\\pythonProject\\лаба 9\\открытка.jpg",
@@ -8,10 +6,8 @@ cards = {
     "23 февраля": "D:\\лабы питон\\pythonProject\\лаба 9\\feb_23.jpg"
 }
 
-
 holiday = input("К какому празднику Вам нужна открытка? ")
 name = input("Кого вы хотите поздравить? ")
-
 
 if holiday in cards:
     filename = cards[holiday]
@@ -20,10 +16,9 @@ if holiday in cards:
     draw = ImageDraw.Draw(image)
 
     # шрифт
-    font = ImageFont.truetype("arialbd.ttf", 10)
+    font = ImageFont.truetype("arialbd.ttf", 15)
     text = f"{name}, поздравляю!"
 
-    # размер текста
     bbox = draw.textbbox((0, 0), text, font=font)
     text_w = bbox[2] - bbox[0]#координаты правой границы вычитают координаты левой границы
     text_h = bbox[3] - bbox[1]#координаты нижней границы вычитают координаты верхней границы
