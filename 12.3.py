@@ -21,3 +21,4 @@ with open("ru-en.txt", "w", encoding="utf-8") as f:
     for ru_word in sorted(ru_en):
         translations = sorted(set(ru_en[ru_word]))  # Убираем повторы и сортируем
         f.write(f"{ru_word} – {', '.join(translations)}\n")
+print("Файл сохранен")
