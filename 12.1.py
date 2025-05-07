@@ -1,6 +1,6 @@
 import json
 with open ("D:\\лабы питон\\pythonProject\\продукты 2.json", "r", encoding = "utf-8") as file:
-    data=json.load(file)
+    data=json.load(file)#считывает данные из бинарного файла в объект
 
 for product in data["products"]:
     print(f"Название: {product['name']}")
